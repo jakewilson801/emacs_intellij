@@ -1,0 +1,38 @@
+<keymap version="1" name="Emacs Jake" parent="Emacs">
+  <action id="$Copy">
+    <keyboard-shortcut first-keystroke="alt c" />
+    <keyboard-shortcut first-keystroke="escape" second-keystroke="w" />
+    <keyboard-shortcut first-keystroke="meta c" />
+  </action>
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="alt semicolon" />
+    <keyboard-shortcut first-keystroke="ctrl semicolon" />
+  </action>
+  <action id="CompareTwoFiles" />
+  <action id="Editor Copy">
+    <keyboard-shortcut first-keystroke="meta c" />
+  </action>
+  <action id="EditorEnter">
+    <keyboard-shortcut first-keystroke="enter" />
+    <keyboard-shortcut first-keystroke="ctrl m" />
+    <keyboard-shortcut first-keystroke="ctrl j" />
+  </action>
+  <action id="EditorEscape">
+    <keyboard-shortcut first-keystroke="meta g" />
+  </action>
+  <action id="ExpressionTypeInfo">
+    <keyboard-shortcut first-keystroke="ctrl t" />
+  </action>
+  <action id="GoToLastTab">
+    <keyboard-shortcut first-keystroke="ctrl g" />
+  </action>
+  <action id="InsertLiveTemplate" />
+  <action id="ReformatWithPrettierAction">
+    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl f" />
+  </action>
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="shift f10" />
+    <keyboard-shortcut first-keystroke="meta r" />
+  </action>
+  <action id="Vcs.UpdateProject" />
+</keymap>
